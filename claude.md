@@ -239,7 +239,55 @@ analysis, and conclusions are entirely the authors' own.
 
 ---
 
-## Important Notes
+## Git Workflow — Automated by Claude
+
+**Remote repo:** https://github.com/soniainnov/BookChapterSpringerKFU_2026.git
+**Branch:** main
+
+### Rules for Claude
+After **every file change**, Claude must automatically:
+
+```bash
+# 1. Stage all changes
+git add .
+
+# 2. Commit with a descriptive message
+git commit -m "<prefix>: <short description of what changed>"
+
+# 3. Push to remote
+git push origin main
+```
+
+### Commit Message Convention
+
+| Prefix | When to use |
+|--------|-------------|
+| `init:` | First setup / new file created |
+| `feat:` | New content added (new section, new chapter part) |
+| `draft:` | Work in progress / incomplete section |
+| `fix:` | Correction of errors or typos |
+| `ref:` | References added or updated |
+| `review:` | Revision or improvement of existing text |
+| `update:` | Context or metadata updated (CLAUDE.md, deadlines...) |
+| `final:` | Section or file marked as complete |
+
+### Examples
+```bash
+git commit -m "init: add CLAUDE.md project context"
+git commit -m "draft: add Introduction and Methodology sections"
+git commit -m "feat: complete Section 4 Positive Impacts"
+git commit -m "ref: add 20 references for IoT smart agriculture"
+git commit -m "update: fix Google Scholar links in CLAUDE.md"
+git commit -m "final: chapter ready for submission"
+```
+
+### Important
+- **Never ask** the user whether to commit — just do it automatically
+- Commit after **every meaningful change**, not just at the end
+- Keep commit messages **short and descriptive**
+- Always push immediately after committing
+
+
 
 - This chapter is **entirely distinct** from the simultaneously submitted chapter to Wiley/Scrivener (Planetary Data Science book), which focuses on Deep Learning for Climate Modeling
 - Both chapters are eligible for **separate KFU grants**
