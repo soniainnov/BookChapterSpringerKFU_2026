@@ -79,12 +79,12 @@ n = 226
 
 #### Boîte 3B — Exclus avec raisons (à droite, flèche vers la droite)
 ```
-Full-text articles excluded  n = 139
+Full-text articles excluded  n = 161
 
 Reasons:
-  • Insufficient IoT content         n = 47
-  • No developing country context    n = 52
-  • Purely theoretical (no application) n = 28
+  • Insufficient IoT content         n = 55
+  • No developing country context    n = 61
+  • Purely theoretical (no application) n = 33
   • Non-English language             n = 12
 ```
 
@@ -97,7 +97,7 @@ Reasons:
 Studies included in
 qualitative synthesis
 
-n = 87
+n = 65
 ```
 
 ---
@@ -115,13 +115,13 @@ n = 87
    [2A: Screened n=969] ──────► [2B: Excluded n=743]
               │
               ▼
-   [3A: Full-text n=226] ──────► [3B: Excluded n=139
-              │                    • IoT insuffisant: 47
-              │                    • Pas pays dev.: 52
-              │                    • Théorique: 28
+   [3A: Full-text n=226] ──────► [3B: Excluded n=161
+              │                    • IoT insuffisant: 55
+              │                    • Pas pays dev.: 61
+              │                    • Théorique: 33
               │                    • Non-anglais: 12]
               ▼
-   [4A: Included n=87]
+   [4A: Included n=65]
 ```
 
 ---
@@ -162,7 +162,7 @@ n = 87
 | 1,247 + 34 = | **1,281** records total identifiés |
 | 1,281 − 312 = | **969** records screened ✅ |
 | 969 − 743 = | **226** full-text évalués ✅ |
-| 226 − 139 = | **87** études incluses ✅ |
-| 47 + 52 + 28 + 12 = | **139** exclusions eligibility ✅ |
+| 226 − 161 = | **65** études incluses ✅ |
+| 55 + 61 + 33 + 12 = | **161** exclusions eligibility ✅ |
 
 Tous les chiffres sont cohérents.
